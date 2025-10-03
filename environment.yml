@@ -1,0 +1,14 @@
+name: lyrebird-env
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pytorch::pytorch
+  - pyg::pyg
+  - conda-forge::pyyaml
+  - conda-forge::rdkit=2024.03.5
+  - pip
+  - pip:
+    - etflow==0.1.2
