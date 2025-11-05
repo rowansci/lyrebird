@@ -1,17 +1,17 @@
 # Lyrebird: 3D Conformer Generation
 
+<<<<<<< HEAD
 <p align="center">
 <img src="img/lyrebird.png" alt="Lyrebird Image" width="650"/>
 </p>
 
-This repository contains the **Lyrebird** neural network model for 3D conformer generation, developed by Rowan using flow matching techniques. You can use the pretrained model weights locally or run predictions directly via the [Rowan web platform](https://labs.rowansci.com/).
+This repository contains the **Lyrebird** neural network for 3D conformer generation, developed by Rowan based on the [ETFlow](https://arxiv.org/abs/2410.22388v1) architecture. You can use the pretrained model weights locally or run predictions directly via the [Rowan web platform](https://labs.rowansci.com/).
 
 For questions or issues, please open a GitHub issue or contact the Rowan team at contact@rowansci.com.
 
 ## Overview
 
-Lyrebird generates high-quality 3D molecular conformers from SMILES strings using a flow-based generative model. The model is trained on diverse molecular geometries and can generate multiple conformers for conformational analysis, molecular docking, and other computational chemistry applications.
-
+Lyrebird is trained on diverse molecular geometries and generates 3D molecular conformers from SMILES strings using an equivariant flow-based generative model.
 ## Example Usage
 
 ```python
