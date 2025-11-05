@@ -1,7 +1,7 @@
 # Lyrebird: 3D Conformer Generation
 
 <p align="center">
-<img src="img/lyrebird.png" alt="Lyrebird Image" width="650"/>
+<img src="img/lyrebird.png" alt="Lyrebird Image" width="350"/>
 </p>
 
 This repository contains the **Lyrebird** neural network for 3D conformer generation, developed by Rowan based on the [ETFlow](https://arxiv.org/abs/2410.22388v1) architecture. You can use the pretrained model weights locally or run predictions directly via the [Rowan web platform](https://labs.rowansci.com/).
