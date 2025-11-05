@@ -1,6 +1,5 @@
 # Lyrebird: 3D Conformer Generation
 
-<<<<<<< HEAD
 <p align="center">
 <img src="img/lyrebird.png" alt="Lyrebird Image" width="650"/>
 </p>
