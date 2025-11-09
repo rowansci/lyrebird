@@ -1,6 +1,6 @@
 # Lyrebird: 3D Conformer Generation
 
-<p align="left">
+<p align="center">
 <img src="img/lyrebird_brehms.jpg" alt="Lyrebird illustration from Brehms Tierleben." width="300"/>
 </p>
 
