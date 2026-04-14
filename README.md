@@ -1,4 +1,4 @@
-# Lyrebird: 3D Conformer Generation
+# Lyrebird: 3D Molecular Conformer Generation
 
 <p align="left">
 <img src="img/lyrebird_brehms.jpg" alt="Lyrebird illustration from Brehms Tierleben." width="300"/>
