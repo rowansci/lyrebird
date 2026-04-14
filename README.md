@@ -4,13 +4,13 @@
 <img src="img/lyrebird_brehms.jpg" alt="Lyrebird illustration from Brehms Tierleben." width="300"/>
 </p>
 
-This repository contains the **Lyrebird** neural network for 3D conformer generation, developed by Rowan based on the [ETFlow](https://arxiv.org/abs/2410.22388v1) architecture. You can use the pretrained model weights locally or run predictions directly via the [Rowan web platform](https://labs.rowansci.com/).
+This repository contains the **Lyrebird** neural network for 3D conformer generation, developed by Rowan based on the [ETFlow](https://arxiv.org/abs/2410.22388v1) architecture, and a Butina cluster-based train/val/test split of the [GEOM-DRUGS](https://doi.org/10.1038/s41597-022-01288-4) dataset.
 
-For questions or issues, please open a GitHub issue or contact the Rowan team at contact@rowansci.com.
+This work was completed by Vedanth Nilabh during an internship at [Rowan](https://rowansci.com/). For questions or issues, please open a GitHub issue or contact nilabh.v@northeastern.edu.
 
 ## Overview
 
-Lyrebird is trained on diverse molecular geometries and generates 3D molecular conformers from SMILES strings using an equivariant flow-based generative model.
+Lyrebird is trained on diverse molecular geometries from the [GEOM-DRUGS](https://doi.org/10.1038/s41597-022-01288-4) dataset and generates 3D molecular conformers from SMILES strings using an equivariant flow-based generative model.
 ## Example Usage
 
 ```python
@@ -43,12 +43,6 @@ python example.py
 ```
 
 This model can run on either CPU or GPU. GPU is recommended for faster generation of multiple conformers.
-
-## References
-
-This repository includes a Butina cluster-based train/val/test split of the GEOM-DRUGS dataset (`GEOM-DRUGS-butina-cluster-split.csv`).
-
-- Axelrod, S., & Gomez-Bombarelli, R. (2022). GEOM, energy-annotated molecular conformations for property prediction and molecular generation. *Scientific Data*, 9(1), 185. https://doi.org/10.1038/s41597-022-01288-4
 
 ## License
 
