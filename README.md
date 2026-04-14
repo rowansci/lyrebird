@@ -44,6 +44,12 @@ python example.py
 
 This model can run on either CPU or GPU. GPU is recommended for faster generation of multiple conformers.
 
+## References
+
+This repository includes a Butina cluster-based train/val/test split of the GEOM-DRUGS dataset (`GEOM-DRUGS-butina-cluster-split.csv`).
+
+- Axelrod, S., & Gomez-Bombarelli, R. (2022). GEOM, energy-annotated molecular conformations for property prediction and molecular generation. *Scientific Data*, 9(1), 185. https://doi.org/10.1038/s41597-022-01288-4
+
 ## License
 
 This model is released under the MIT License. See [LICENSE](LICENSE) for details.
