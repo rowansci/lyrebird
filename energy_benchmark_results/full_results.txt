@@ -1,0 +1,215 @@
+
+energy benchmark results
+
+method: etflow
+  avg (final - initial) over ensembles: -7.965833
+  avg (final - initial) over all conformers: -5.379637
+  avg (min_gen_final - min_gt_final): -0.145370
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=118, avg_delta=-5.930432, gap_vs_gt=0.024834
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1147, avg_delta=-5.357075, gap_vs_gt=-0.000070
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1039, avg_delta=-4.903906, gap_vs_gt=-0.007257
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=781, avg_delta=-2.881278, gap_vs_gt=-0.000669
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1039, avg_delta=-2.741410, gap_vs_gt=-0.042072
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=708, avg_delta=-0.206736, gap_vs_gt=0.003305
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2501, avg_delta=-0.451554, gap_vs_gt=-0.301976
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=651, avg_delta=-3.137672, gap_vs_gt=-0.030551
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=708, avg_delta=-7.868737, gap_vs_gt=-0.023382
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=554, avg_delta=-8.286076, gap_vs_gt=-0.044535
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=470, avg_delta=-9.669537, gap_vs_gt=0.005913
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=646, avg_delta=-8.968522, gap_vs_gt=0.013003
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=372, avg_delta=-3.375375, gap_vs_gt=0.007728
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=148, avg_delta=-11.364730, gap_vs_gt=-3.282845
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=502, avg_delta=-10.236586, gap_vs_gt=-0.009012
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=285, avg_delta=-7.659244, gap_vs_gt=0.011376
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=173, avg_delta=-38.378733, gap_vs_gt=0.108597
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=506, avg_delta=-16.386254, gap_vs_gt=-0.001069
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=745, avg_delta=-5.852907, gap_vs_gt=0.004423
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-5.659894, gap_vs_gt=0.656868
+
+method: etkdgv3
+  avg (final - initial) over ensembles: -0.280701
+  avg (final - initial) over all conformers: -0.229865
+  avg (min_gen_final - min_gt_final): 0.016348
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=118, avg_delta=-0.277104, gap_vs_gt=0.039862
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1149, avg_delta=-0.163616, gap_vs_gt=0.004722
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1040, avg_delta=-0.153767, gap_vs_gt=0.003399
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=788, avg_delta=-0.217771, gap_vs_gt=0.013788
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1040, avg_delta=-0.186646, gap_vs_gt=0.014017
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=712, avg_delta=-0.164236, gap_vs_gt=0.020061
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2500, avg_delta=-0.164212, gap_vs_gt=0.008561
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=658, avg_delta=-0.166195, gap_vs_gt=0.020451
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=708, avg_delta=-0.249578, gap_vs_gt=-0.009912
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=556, avg_delta=-0.261063, gap_vs_gt=0.011953
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=470, avg_delta=-0.419633, gap_vs_gt=0.020023
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=646, avg_delta=-0.343406, gap_vs_gt=0.016871
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=246, avg_delta=-0.311759, gap_vs_gt=0.017564
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=154, avg_delta=-0.219586, gap_vs_gt=0.033807
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=502, avg_delta=-0.422263, gap_vs_gt=0.026554
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=286, avg_delta=-0.340957, gap_vs_gt=0.024909
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=186, avg_delta=-0.585334, gap_vs_gt=0.005533
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=508, avg_delta=-0.305151, gap_vs_gt=0.019308
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=712, avg_delta=-0.215422, gap_vs_gt=0.025872
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-0.446313, gap_vs_gt=0.009608
+
+method: lyrebird
+  avg (final - initial) over ensembles: -8.133852
+  avg (final - initial) over all conformers: -5.336603
+  avg (min_gen_final - min_gt_final): -0.116366
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=115, avg_delta=-5.478093, gap_vs_gt=0.020330
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1150, avg_delta=-5.119130, gap_vs_gt=-0.002652
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1038, avg_delta=-4.908422, gap_vs_gt=-0.007353
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=782, avg_delta=-2.768173, gap_vs_gt=0.001396
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1039, avg_delta=-2.789292, gap_vs_gt=-0.030192
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=704, avg_delta=-0.176037, gap_vs_gt=0.000066
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2500, avg_delta=-0.430469, gap_vs_gt=-0.302049
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=652, avg_delta=-3.743616, gap_vs_gt=-0.031186
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=708, avg_delta=-7.244415, gap_vs_gt=-0.008461
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=556, avg_delta=-7.861559, gap_vs_gt=-2.711786
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=470, avg_delta=-9.179772, gap_vs_gt=0.007980
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=645, avg_delta=-9.195133, gap_vs_gt=0.004164
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=245, avg_delta=-3.713028, gap_vs_gt=-0.037917
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=147, avg_delta=-15.857990, gap_vs_gt=-0.027723
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=502, avg_delta=-8.487972, gap_vs_gt=0.010961
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=285, avg_delta=-7.949220, gap_vs_gt=0.003106
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=175, avg_delta=-42.278200, gap_vs_gt=0.074454
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=503, avg_delta=-14.700284, gap_vs_gt=0.014227
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=748, avg_delta=-6.200506, gap_vs_gt=0.001948
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-4.595725, gap_vs_gt=0.693363
+
+method: torsional_diffusion
+  avg (final - initial) over ensembles: -3.992332
+  avg (final - initial) over all conformers: -2.874113
+  avg (min_gen_final - min_gt_final): -0.422573
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=117, avg_delta=-6.427774, gap_vs_gt=0.011369
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1152, avg_delta=-2.074914, gap_vs_gt=-0.000731
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1040, avg_delta=-2.300358, gap_vs_gt=-0.034199
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=787, avg_delta=-0.970554, gap_vs_gt=-0.029381
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1040, avg_delta=-1.950750, gap_vs_gt=-0.011399
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=705, avg_delta=-1.095181, gap_vs_gt=0.007551
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2499, avg_delta=-0.417697, gap_vs_gt=0.001010
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=655, avg_delta=-2.036790, gap_vs_gt=-0.041684
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=706, avg_delta=-1.702249, gap_vs_gt=0.017805
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=547, avg_delta=-2.047610, gap_vs_gt=-8.593255
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=469, avg_delta=-6.522221, gap_vs_gt=0.030346
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=641, avg_delta=-6.783169, gap_vs_gt=0.004721
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=245, avg_delta=-5.541253, gap_vs_gt=0.012941
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=149, avg_delta=-4.392274, gap_vs_gt=0.016457
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=501, avg_delta=-5.298078, gap_vs_gt=0.007872
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=286, avg_delta=-8.573289, gap_vs_gt=0.025936
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=186, avg_delta=-5.474457, gap_vs_gt=0.087238
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=506, avg_delta=-9.255496, gap_vs_gt=0.012418
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=748, avg_delta=-4.424241, gap_vs_gt=0.004148
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-2.558288, gap_vs_gt=0.019372
+(base) MacBook-Pro-7:geomxl20-energy-benchmark vedantnilabh$ python compute_energy_benchmark.py 
+================================================================================
+energy benchmark results
+================================================================================
+
+method: etflow
+  avg (final - initial) over ensembles: -7.965833
+  avg (final - initial) over all conformers: -5.379637
+  avg (min_gen_final - min_gt_final): -0.145370
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=118, avg_delta=-5.930432, gap_vs_gt=0.024834
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1147, avg_delta=-5.357075, gap_vs_gt=-0.000070
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1039, avg_delta=-4.903906, gap_vs_gt=-0.007257
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=781, avg_delta=-2.881278, gap_vs_gt=-0.000669
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1039, avg_delta=-2.741410, gap_vs_gt=-0.042072
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=708, avg_delta=-0.206736, gap_vs_gt=0.003305
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2501, avg_delta=-0.451554, gap_vs_gt=-0.301976
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=651, avg_delta=-3.137672, gap_vs_gt=-0.030551
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=708, avg_delta=-7.868737, gap_vs_gt=-0.023382
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=554, avg_delta=-8.286076, gap_vs_gt=-0.044535
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=470, avg_delta=-9.669537, gap_vs_gt=0.005913
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=646, avg_delta=-8.968522, gap_vs_gt=0.013003
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=372, avg_delta=-3.375375, gap_vs_gt=0.007728
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=148, avg_delta=-11.364730, gap_vs_gt=-3.282845
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=502, avg_delta=-10.236586, gap_vs_gt=-0.009012
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=285, avg_delta=-7.659244, gap_vs_gt=0.011376
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=173, avg_delta=-38.378733, gap_vs_gt=0.108597
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=506, avg_delta=-16.386254, gap_vs_gt=-0.001069
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=745, avg_delta=-5.852907, gap_vs_gt=0.004423
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-5.659894, gap_vs_gt=0.656868
+
+method: etkdgv3
+  avg (final - initial) over ensembles: -0.280701
+  avg (final - initial) over all conformers: -0.229865
+  avg (min_gen_final - min_gt_final): 0.016348
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=118, avg_delta=-0.277104, gap_vs_gt=0.039862
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1149, avg_delta=-0.163616, gap_vs_gt=0.004722
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1040, avg_delta=-0.153767, gap_vs_gt=0.003399
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=788, avg_delta=-0.217771, gap_vs_gt=0.013788
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1040, avg_delta=-0.186646, gap_vs_gt=0.014017
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=712, avg_delta=-0.164236, gap_vs_gt=0.020061
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2500, avg_delta=-0.164212, gap_vs_gt=0.008561
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=658, avg_delta=-0.166195, gap_vs_gt=0.020451
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=708, avg_delta=-0.249578, gap_vs_gt=-0.009912
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=556, avg_delta=-0.261063, gap_vs_gt=0.011953
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=470, avg_delta=-0.419633, gap_vs_gt=0.020023
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=646, avg_delta=-0.343406, gap_vs_gt=0.016871
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=246, avg_delta=-0.311759, gap_vs_gt=0.017564
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=154, avg_delta=-0.219586, gap_vs_gt=0.033807
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=502, avg_delta=-0.422263, gap_vs_gt=0.026554
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=286, avg_delta=-0.340957, gap_vs_gt=0.024909
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=186, avg_delta=-0.585334, gap_vs_gt=0.005533
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=508, avg_delta=-0.305151, gap_vs_gt=0.019308
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=712, avg_delta=-0.215422, gap_vs_gt=0.025872
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-0.446313, gap_vs_gt=0.009608
+
+method: lyrebird
+  avg (final - initial) over ensembles: -8.133852
+  avg (final - initial) over all conformers: -5.336603
+  avg (min_gen_final - min_gt_final): -0.116366
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=115, avg_delta=-5.478093, gap_vs_gt=0.020330
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1150, avg_delta=-5.119130, gap_vs_gt=-0.002652
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1038, avg_delta=-4.908422, gap_vs_gt=-0.007353
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=782, avg_delta=-2.768173, gap_vs_gt=0.001396
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1039, avg_delta=-2.789292, gap_vs_gt=-0.030192
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=704, avg_delta=-0.176037, gap_vs_gt=0.000066
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2500, avg_delta=-0.430469, gap_vs_gt=-0.302049
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=652, avg_delta=-3.743616, gap_vs_gt=-0.031186
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=708, avg_delta=-7.244415, gap_vs_gt=-0.008461
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=556, avg_delta=-7.861559, gap_vs_gt=-2.711786
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=470, avg_delta=-9.179772, gap_vs_gt=0.007980
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=645, avg_delta=-9.195133, gap_vs_gt=0.004164
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=245, avg_delta=-3.713028, gap_vs_gt=-0.037917
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=147, avg_delta=-15.857990, gap_vs_gt=-0.027723
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=502, avg_delta=-8.487972, gap_vs_gt=0.010961
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=285, avg_delta=-7.949220, gap_vs_gt=0.003106
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=175, avg_delta=-42.278200, gap_vs_gt=0.074454
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=503, avg_delta=-14.700284, gap_vs_gt=0.014227
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=748, avg_delta=-6.200506, gap_vs_gt=0.001948
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-4.595725, gap_vs_gt=0.693363
+
+method: torsional_diffusion
+  avg (final - initial) over ensembles (unweighted): -3.992332
+  avg (final - initial) over all conformers (weighted): -2.874113
+  avg (min_gen_final - min_gt_final): -0.422573
+  per-molecule:
+    - C=C1C[C@@]23CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O)[C@@H]2CC[C@]1(O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)[C@H]1O[C@@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C3: n=117, avg_delta=-6.427774, gap_vs_gt=0.011369
+    - CC(C)(C)c1cc(CCC(=O)NCCCCCCNC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1152, avg_delta=-2.074914, gap_vs_gt=-0.000731
+    - CC(C)(C)c1cc(CCC(=O)OCCSCCOC(=O)CCc2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)cc(C(C)(C)C)c1O: n=1040, avg_delta=-2.300358, gap_vs_gt=-0.034199
+    - CC1=C(_C=C_C(C)=C_C=C_C(C)=C_C(=O)Oc2c(C)c(C)c3c(c2C)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O3)C(C)(C)CCC1: n=787, avg_delta=-0.970554, gap_vs_gt=-0.029381
+    - CCCCCCCCCCCCCCCCCC(=O)OCC(=O)OCC(=O)[C@@]1(O)CC[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@@]21C: n=1040, avg_delta=-1.950750, gap_vs_gt=-0.011399
+    - CCCCCCCCCCCCCCCCCC(=O)OCCCCCCCCCCCCCC(C)C: n=705, avg_delta=-1.095181, gap_vs_gt=0.007551
+    - CCCCCCCCCCCCCC[P+](CCCCCC)(CCCCCC)CCCCCC: n=2499, avg_delta=-0.417697, gap_vs_gt=0.001010
+    - CCCCCCCC_C=C\CCCCCCCC(=O)OCCOC(=O)CCCCCCC_C=C\CCCCCCCC: n=655, avg_delta=-2.036790, gap_vs_gt=-0.041684
+    - CCCCCC[C@H]1OC(=O)CNC(=O)[C@@H]([C@H](C)O)NC(=O)[C@H](CO)NC(=O)[C@H]([C@H](C)CC)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H]1C: n=706, avg_delta=-1.702249, gap_vs_gt=0.017805
+    - CC[C@@H]1_C=C(_C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCC[C@H]3C(=O)O[C@H](_C(C)=C_[C@@H]3CC[C@H](Cl)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC: n=547, avg_delta=-2.047610, gap_vs_gt=-8.593255
+    - CC[C@H](C)[C@@H]1NC(=O)[C@H](Cc2ccc(O)cc2)NC(=O)[C@@H](N)CSSC[C@@H](C(=O)N2CCC[C@H]2C(=O)N[C@@H](CC(C)C)C(=O)NCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(N)=O)NC1=O: n=469, avg_delta=-6.522221, gap_vs_gt=0.030346
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)[C@@H]2N[C@@H](COCCOC)O[C@@H]([C@H]2C)[C@]1(C)O: n=641, avg_delta=-6.783169, gap_vs_gt=0.004721
+    - CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@](C)(F)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O: n=245, avg_delta=-5.541253, gap_vs_gt=0.012941
+    - CCn1c(C)c(C(=O)O)c(-c2cccc(N3CCN(c4ccc(NS(=O)(=O)c5ccc(N[C@H](CCN6CCC(O)CC6)CSc6ccccc6)c(S(=O)(=O)C(F)(F)F)c5)cc4)CC3)c2)c1-c1ccc(Cl)cc1: n=149, avg_delta=-4.392274, gap_vs_gt=0.016457
+    - CN(CCN(C)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O)CN_C(O)=C1\C(=O)[C@@H](N(C)C)[C@@H]2C[C@H]3C(=C(O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C1=O: n=501, avg_delta=-5.298078, gap_vs_gt=0.007872
+    - CO[C@H](C(=O)[C@@H](O)[C@@H](C)O)[C@@H]1Cc2cc3cc(O[C@H]4C[C@@H](O[C@H]5C[C@@H](O)[C@H](O)[C@@H](C)O5)[C@H](O)[C@@H](C)O4)c(C)c(O)c3c(O)c2C(=O)[C@H]1O[C@H]1C[C@@H](O[C@H]2C[C@@H](O[C@H]3C[C@](C)(O)[C@H](O)[C@@H](C)O3)[C@H](O)[C@@H](C)O2)[C@H](O)[C@@H](C)O1: n=286, avg_delta=-8.573289, gap_vs_gt=0.025936
+    - C[C@@H]1NC(=O)[C@@H]2CCCN2C(=O)[C@H](CC(N)=O)NC(=O)[C@@H]2CSSC[C@H](N)C(=O)N[C@H]3CSSC[C@H](NC1=O)C(=O)N[C@@H]([C@@H](C)O)C(=O)NCC(=O)N[C@H](C(=O)N[C@@H](Cc1ccc(O)cc1)C(=O)O)CSSC[C@H](NC(=O)[C@H](Cc1ccc(O)cc1)NC(=O)[C@H](CCC(=O)O)NC3=O)C(=O)N2: n=186, avg_delta=-5.474457, gap_vs_gt=0.087238
+    - C[C@H]1CC[C@]2(NC1)O[C@H]1C[C@H]3[C@@H]4CC[C@H]5C[C@@H](O[C@@H]6O[C@H](CO)[C@H](O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O[C@@H]8OC[C@@H](O)[C@H](O)[C@H]8O)[C@H]7O[C@@H]7O[C@H](CO)[C@@H](O)[C@H](O)[C@H]7O)[C@H](O)[C@H]6O)CC[C@]5(C)[C@H]4CC[C@]3(C)[C@H]1[C@@H]2C: n=506, avg_delta=-9.255496, gap_vs_gt=0.012418
+    - O=C(CCCCCCCCCCCCC1CCCC1)Nc1ccc(S(=O)(=O)c2ccc(NC(=O)CCCCCCCCCCCCC3CCCC3)cc2)cc1: n=748, avg_delta=-4.424241, gap_vs_gt=0.004148
+    - O=S(=O)([O-])c1ccc(Nc2nc(Nc3ccc(_C=C_c4ccc(Nc5nc(Nc6ccc(S(=O)(=O)[O-])cc6)nc(N(CCO)CCO)n5)cc4S(=O)(=O)[O-])c(S(=O)(=O)[O-])c3)nc(N(CCO)CCO)n2)cc1: n=102, avg_delta=-2.558288, gap_vs_gt=0.019372
+
