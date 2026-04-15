@@ -4,7 +4,7 @@
 <img src="img/lyrebird_brehms.jpg" alt="Lyrebird illustration from Brehms Tierleben." width="300"/>
 </p>
 
-This repository contains the **Lyrebird** neural network for 3D conformer generation, developed by Rowan based on the [ETFlow](https://arxiv.org/abs/2410.22388v1) architecture, and a Butina cluster-based train/val/test split of the [GEOM-DRUGS](https://doi.org/10.1038/s41597-022-01288-4) dataset.
+This repository contains the **Lyrebird** neural network for 3D conformer generation, developed by Rowan based on the [ETFlow](https://arxiv.org/abs/2410.22388v1) architecture, and a Butina cluster-based train/val/test split of the [GEOM](https://doi.org/10.1038/s41597-022-01288-4) dataset and [CREMP](https://doi.org/10.1038/s41597-024-03698-y).
 
 This work was completed by Vedanth Nilabh during an internship at [Rowan](https://rowansci.com/). For questions or issues, please open a GitHub issue or contact nilabh.v@northeastern.edu.
 
