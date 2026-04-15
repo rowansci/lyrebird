@@ -10,7 +10,7 @@ This work was completed by Vedanth Nilabh during an internship at [Rowan](https:
 
 ## Overview
 
-Lyrebird is trained on diverse molecular geometries from the [GEOM-DRUGS](https://doi.org/10.1038/s41597-022-01288-4) dataset and generates 3D molecular conformers from SMILES strings using an equivariant flow-based generative model.
+Lyrebird is trained on diverse molecular geometries from the [GEOM](https://doi.org/10.1038/s41597-022-01288-4) datasets (DRUGS and QM9), as well as [CREMP](https://doi.org/10.1038/s41597-024-03698-y), and generates 3D molecular conformers from SMILES strings using an equivariant flow-based generative model.
 We also have detailed energy benchmark results (which measures energy and optimizes structures using the semi-empirical method GNF2-XTB) in the associated folder, along with a detailed descrption of the motivation and methodology. 
 ## Example Usage
 
